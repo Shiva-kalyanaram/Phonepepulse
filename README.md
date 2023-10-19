@@ -30,7 +30,7 @@ To begin my project, I cloned the data from the Phonepe Pulse Github repository 
 Utilized the `json` package to extract information from all the files, which were in Json format, and identified required information.
 
 ### For Data Transfer:
-Extracted valuable data was uploaded to postgresql with a `pyschopg2` connector in a structured way, and the same mechanism was used for retrieving it back for data visualization.
+Extracted valuable data was uploaded to MySQL with a `sqlachemy` connector in a structured way, and the same mechanism was used for retrieving it back for data visualization.
 
 ### Data Visualization:
 The `streamlit` Web Application package was used to create a Phonepe overview with five tabs and multiple filtering options to see detailed insight about the data. These tabs include:
