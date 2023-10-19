@@ -21,7 +21,7 @@ The solution must be secure, efficient, and user-friendly. The dashboard must be
 - OS
 - Github
 - Plotly
-- Psycopg2
+- SQLchemy
 
 ## Approach
 To begin my project, I cloned the data from the Phonepe Pulse Github repository to my computer. With the help of the os package, I was able to identify and extract all of the necessary information from all directories & files.
